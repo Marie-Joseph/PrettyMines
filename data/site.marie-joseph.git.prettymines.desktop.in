@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Pretty Mines
+GenericName=Pretty Mines
+Comment=A Minesweeper clone in Vala using Gtk+
+Categories=Games;Puzzle;
+Exec=com.github.marie-joseph.prettymines
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=Minesweeper;Puzzle;Game;
