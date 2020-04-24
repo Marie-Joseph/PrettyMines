@@ -7,9 +7,11 @@ mines.
 
 The only build dependencies are Gtk3, Vala, and meson, and the procedure is the standard for meson.
 
-`meson build`
-`cd build`
-`ninja`
+```
+meson build
+cd build
+ninja
+```
 
 Obviously, if you want to install it, that's a simple
 `ninja install`
