@@ -36,7 +36,7 @@ public class PlayField : Gtk.Grid {
                 new_mine.y_pos = j;
 
                 // Randomly create mined buttons
-                if (Random.int_range (0, this.size) == 0) {
+                if (Random.int_range (0, this.size / 2) == 0) {
 
                     new_mine.is_mine = true;
                     total_mines++;
