@@ -24,10 +24,10 @@ public class GameMenu : Gtk.Menu {
                 case (1):
                     child = x24;
                     break;
-                case(2):
+                case (2):
                     child = x32;
                     break;
-                case(3):
+                case (3):
                     child = x40;
                     break;
             }

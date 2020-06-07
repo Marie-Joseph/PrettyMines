@@ -49,7 +49,7 @@ public class Header : Gtk.HeaderBar {
         settings_button.valign = Gtk.Align.CENTER;
         settings_button.popup = game_menu;
 
-        game_menu.size_changed.connect( (t) => {
+        game_menu.size_changed.connect ( (t) => {
             this.size = game_menu.size;
             size_changed ();
         });

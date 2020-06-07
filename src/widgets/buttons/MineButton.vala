@@ -28,7 +28,7 @@ public class MineButton : Gtk.ToggleButton {
             active = true;
 
             if (is_mine) {
-                set_image_mine();
+                set_image_mine ();
                 kill_everything ();
                 return false;
             } else {
@@ -44,7 +44,7 @@ public class MineButton : Gtk.ToggleButton {
                 is_flagged = false;
                 mine_added ();
             } else {
-                set_image_flag();
+                set_image_flag ();
                 is_flagged = true;
                 mine_removed ();
             }

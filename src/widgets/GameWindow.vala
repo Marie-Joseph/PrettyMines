@@ -12,7 +12,7 @@ public class GameWindow : Gtk.ApplicationWindow {
 
         this.destroy.connect (Gtk.main_quit);
 
-        add_events(Gdk.EventMask.BUTTON_PRESS_MASK);
+        add_events (Gdk.EventMask.BUTTON_PRESS_MASK);
 
         var playfield = new PlayField (this.size);
         var header = new Header (playfield.total_mines);

@@ -103,7 +103,7 @@ public class PlayField : Gtk.Grid {
 
                 if (child.is_mine) {
 
-                    child.set_image_mine();
+                    child.set_image_mine ();
 
                 } else if (child.neighbors != 0) {
 
